@@ -8,9 +8,9 @@ import java.util.Scanner;
     
 
         try {
-            char[] numberArray = input.toCharArray();
+            char[] numberArray = input.toCharArray(); // input to arry
             if (numberArray.length != 10) {
-                throw new Exception("Invalid number length. Please enter a 10-digit number.");
+                throw new Exception("Invalid number length. Please enter a 10-digit number."); 
             }
             for (char digit : numberArray) {
                 if (!Character.isDigit(digit)) {
